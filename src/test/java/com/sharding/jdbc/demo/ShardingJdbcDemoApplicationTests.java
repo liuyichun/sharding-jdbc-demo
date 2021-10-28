@@ -17,7 +17,7 @@ class ShardingJdbcDemoApplicationTests {
     void contextLoads() {
         DownLinkRecord downLinkRecord = new DownLinkRecord();
         downLinkRecord.setMassTaskId(1);
-        downLinkRecord.setMerchantId(1);
+        downLinkRecord.setMerchantId(5);
         downLinkRecord.setMassTaskName("测试任务");
         downLinkRecord.setPhone("askdaodasdaskdfsdfodsuo");
         downLinkRecord.setErrorCode("");
